@@ -9,6 +9,8 @@ This project contains a betting simulation analysis for NBA games, focusing on t
 ## Files
 
 - `blog.ipynb`: Jupyter notebook containing the main analysis
+- `simulator.py`: The main simulation class
+- `plotting.py`: Plotting functions
 - `experiment1.csv`: CSV file with results using true probabilities
 - `experiment2.csv`: CSV file with results using estimated probabilities
 - `final_profits_comparison.csv`: CSV file comparing final profits
