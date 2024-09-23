@@ -1,6 +1,6 @@
 # Betting Simulation Analysis
 
-This project contains a betting simulation analysis for NBA games, focusing on the Chicago Bulls. It includes:
+This project contains a stochastic betting simulation analysis for NBA games utilized in my recent ENSO blog post. It includes:
 
 - A `BettingSimulation` class for running individual season simulations
 - Functions for running multiple seasons and analyzing results
