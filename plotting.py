@@ -42,8 +42,8 @@ def plot_results_comparison(final_profits_true, final_profits_estimated, savefig
     print(f'Using Estimated Probabilities - Worst-case final profit: ${worst_case_estimated:.2f}')
     print(f'Using Estimated Probabilities - Best-case final profit: ${best_case_estimated:.2f}')
     if savefig:
-        plt.savefig('histogram_comparison_plot.eps', format='eps')
-        plt.savefig('histogram_comparison_plot.png', format='png')
+        plt.savefig('./data/histogram_comparison_plot.eps', format='eps')
+        plt.savefig('./data/histogram_comparison_plot.png', format='png')
 
 def plot_cumulative_profit_comparison(exp1, exp2, season = 50, savefig = True):
     # Create a figure and axis
@@ -60,13 +60,13 @@ def plot_cumulative_profit_comparison(exp1, exp2, season = 50, savefig = True):
     plt.legend()
 
     # Save the plot as EPS and PNG
-    plt.savefig('cumulative_profit_comparison.eps', format='eps')
-    plt.savefig('cumulative_profit_comparison.png', format='png')
+    plt.savefig('./data/cumulative_profit_comparison.eps', format='eps')
+    plt.savefig('./data/cumulative_profit_comparison.png', format='png')
 
     
 if __name__ == '__main__': 
     # Load the data from CSV file
-    df = pd.read_csv('final_profits_comparison.csv')
+    df = pd.read_csv('./data/final_profits_comparison.csv')
 
     # Extract the data from the DataFrame
     final_profits_true = df['True Probabilities'].values
