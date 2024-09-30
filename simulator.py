@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 class BettingSimulation:
-    def __init__(self, num_games=82, estimation_error=0.0, limited_estimates=False, random_seed=None):
+    def __init__(self, num_games=82, use_dss = True, estimation_error=0.0, limited_estimates=False, random_seed=None):
         """
         Initialize the betting simulation.
 
@@ -17,6 +17,7 @@ class BettingSimulation:
         self.num_games = num_games
         self.estimation_error = estimation_error
         self.limited_estimates = limited_estimates
+        self.use_dss = use_dss
         self.random_seed = random_seed
         self.results = None
 
@@ -77,6 +78,15 @@ class BettingSimulation:
         """
         Determine bet amounts based on probabilities.
         """
+        if self.use_dss:
+            return self._determine_bets_dss(probabilities)
+        else:
+            return self._determine_bets_random(probabilities)
+
+    def _determine_bets_dss(self, probabilities):
+        """
+        Determine bet amounts based on probabilities using the DSS method.
+        """
         bet_amounts = []
         for p in probabilities:
             if p < 0.5:
@@ -92,6 +102,13 @@ class BettingSimulation:
             else:
                 bet_amounts.append(50)
         return np.array(bet_amounts)
+
+    def _determine_bets_random(self, probabilities):
+        """
+        Determine bet amounts randomly for any given probability.
+        """
+        # Generate random bet amounts between 0 and 50
+        return np.random.randint(0, 51, size=len(probabilities))
 
     def simulate_games(self, true_probabilities):
         """
@@ -135,6 +152,9 @@ class BettingSimulation:
         # Determine bets using estimated probabilities
         bet_amounts_estimated = self.determine_bets(adjusted_estimated_probabilities)
 
+        # Determine random bets
+        bet_amounts_random = self._determine_bets_random(adjusted_estimated_probabilities)
+
         # Simulate game outcomes
         game_outcomes = self.simulate_games(true_probabilities)
 
@@ -143,6 +163,9 @@ class BettingSimulation:
 
         # Calculate profits using bets from estimated probabilities
         profits_estimated = self.calculate_profits(bet_amounts_estimated, game_outcomes)
+
+        # Calculate profits using random bets
+        profits_random = self.calculate_profits(bet_amounts_random, game_outcomes)
 
         # Store results in a DataFrame
         self.results = pd.DataFrame({
@@ -153,13 +176,16 @@ class BettingSimulation:
             'Adjusted Estimated Probability (%)': (adjusted_estimated_probabilities*100).astype(int),
             'Bet Amount ($) - True Probabilities': bet_amounts_true,
             'Bet Amount ($) - Estimated Probabilities': bet_amounts_estimated,
+            'Bet Amount ($) - Random': bet_amounts_random,
             'Game Outcome': game_outcomes,
             'Profit ($) - True Probabilities': profits_true,
-            'Profit ($) - Estimated Probabilities': profits_estimated
+            'Profit ($) - Estimated Probabilities': profits_estimated,
+            'Profit ($) - Random': profits_random
         }).set_index("Game")
 
         self.results['Cumulative Profit ($) - True Probabilities'] = self.results['Profit ($) - True Probabilities'].cumsum()
         self.results['Cumulative Profit ($) - Estimated Probabilities'] = self.results['Profit ($) - Estimated Probabilities'].cumsum()
+        self.results['Cumulative Profit ($) - Random'] = self.results['Profit ($) - Random'].cumsum()
         return self.results
     
 def simulate_multiple_seasons(num_seasons=1000, **kwargs):
@@ -173,15 +199,18 @@ def simulate_multiple_seasons(num_seasons=1000, **kwargs):
     Returns:
     - final_profits_true: Array of final profits using true probabilities.
     - final_profits_estimated: Array of final profits using estimated probabilities.
+    - final_profits_random: Array of final profits using random bets.
     - all_results: List of DataFrames containing results for each season.
     """
     final_profits_true = []
     final_profits_estimated = []
+    final_profits_random = []
     all_results = []
     for i in range(num_seasons):
         sim = BettingSimulation(**kwargs)
         season_results = sim.run_season()
         final_profits_true.append(season_results['Cumulative Profit ($) - True Probabilities'].iloc[-1])
         final_profits_estimated.append(season_results['Cumulative Profit ($) - Estimated Probabilities'].iloc[-1])
+        final_profits_random.append(season_results['Cumulative Profit ($) - Random'].iloc[-1])
         all_results.append(season_results)
-    return np.array(final_profits_true), np.array(final_profits_estimated), all_results
+    return np.array(final_profits_true), np.array(final_profits_estimated), np.array(final_profits_random), all_results

@@ -1,83 +1,83 @@
-Game,Opponent,True Probability (%),Estimated Probability (%),Bet Amount ($),Game Outcome,Profit ($),Cumulative Profit ($)
-1,Minnesota Timberwolves,80,0,0,1,0,0
-2,Detroit Pistons,60,100,50,1,50,50
-3,Atlanta Hawks,50,0,0,1,0,50
-4,Sacramento Kings,90,50,10,1,10,60
-5,Miami Heat,30,30,0,1,0,60
-6,Charlotte Hornets,10,0,0,0,0,60
-7,LA Clippers,50,60,20,1,20,80
-8,Brooklyn Nets,10,0,0,1,0,80
-9,Detroit Pistons,80,100,50,0,-50,30
-10,Indiana Pacers,70,90,50,1,50,80
-11,Houston Rockets,50,100,50,0,-50,30
-12,Charlotte Hornets,90,100,50,1,50,80
-13,Miami Heat,50,80,40,0,-40,40
-14,Detroit Pistons,100,100,50,1,50,90
-15,Philadelphia 76ers,10,50,10,0,-10,80
-16,Washington Wizards,60,60,20,0,-20,60
-17,LA Clippers,100,100,50,1,50,110
-18,New York Knicks,10,70,30,1,30,140
-19,Boston Celtics,30,60,20,1,20,160
-20,Golden State Warriors,30,0,0,0,0,160
-21,Sacramento Kings,10,0,0,0,0,160
-22,San Antonio Spurs,40,90,50,1,50,210
-23,Utah Jazz,70,0,0,1,0,210
-24,Detroit Pistons,20,70,30,0,-30,180
-25,Utah Jazz,70,30,0,1,0,180
-26,Golden State Warriors,80,100,50,1,50,230
-27,Detroit Pistons,50,60,20,0,-20,210
-28,Toronto Raptors,0,0,0,0,0,210
-29,Orlando Magic,0,30,0,0,0,210
-30,Brooklyn Nets,0,0,0,0,0,210
-31,Orlando Magic,90,100,50,1,50,260
-32,Milwaukee Bucks,40,100,50,1,50,310
-33,Los Angeles Lakers,0,0,0,0,0,310
-34,Los Angeles Lakers,70,0,0,1,0,310
-35,Boston Celtics,90,20,0,1,0,310
-36,Sacramento Kings,90,0,0,1,0,310
-37,Brooklyn Nets,30,50,10,0,-10,300
-38,Miami Heat,50,80,40,0,-40,260
-39,Golden State Warriors,40,20,0,1,0,260
-40,Dallas Mavericks,70,100,50,1,50,310
-41,Golden State Warriors,80,100,50,1,50,360
-42,LA Clippers,20,20,0,0,0,360
-43,Los Angeles Lakers,0,20,0,0,0,360
-44,Portland Trail Blazers,0,30,0,0,0,360
-45,Cleveland Cavaliers,50,100,50,0,-50,310
-46,Cleveland Cavaliers,70,70,30,0,-30,280
-47,Los Angeles Lakers,30,0,0,0,0,280
-48,Houston Rockets,50,20,0,1,0,280
-49,Boston Celtics,20,0,0,0,0,280
-50,Philadelphia 76ers,0,0,0,0,0,280
-51,Toronto Raptors,80,100,50,1,50,330
-52,Sacramento Kings,70,60,20,1,20,350
-53,Atlanta Hawks,10,20,0,0,0,350
-54,Phoenix Suns,40,60,20,0,-20,330
-55,Utah Jazz,30,50,10,0,-10,320
-56,Denver Nuggets,30,30,0,0,0,320
-57,Toronto Raptors,30,10,0,0,0,320
-58,Philadelphia 76ers,70,100,50,1,50,370
-59,Miami Heat,10,50,10,0,-10,360
-60,Memphis Grizzlies,10,0,0,0,0,360
-61,Portland Trail Blazers,20,0,0,1,0,360
-62,San Antonio Spurs,60,100,50,1,50,410
-63,Utah Jazz,80,100,50,1,50,460
-64,Minnesota Timberwolves,30,60,20,1,20,480
-65,LA Clippers,60,80,40,0,-40,440
-66,Minnesota Timberwolves,70,100,50,1,50,490
-67,Detroit Pistons,70,50,10,0,-10,480
-68,Brooklyn Nets,20,10,0,0,0,480
-69,Los Angeles Lakers,50,100,50,1,50,530
-70,Atlanta Hawks,40,60,20,1,20,550
-71,Brooklyn Nets,40,60,20,0,-20,530
-72,Toronto Raptors,50,50,10,0,-10,520
-73,Memphis Grizzlies,80,0,0,1,0,520
-74,Orlando Magic,0,0,0,0,0,520
-75,Minnesota Timberwolves,20,0,0,0,0,520
-76,Milwaukee Bucks,10,0,0,0,0,520
-77,Oklahoma City Thunder,0,0,0,0,0,520
-78,Atlanta Hawks,20,0,0,0,0,520
-79,Houston Rockets,90,90,50,1,50,570
-80,Washington Wizards,70,50,10,1,10,580
-81,Portland Trail Blazers,20,80,40,0,-40,540
-82,Utah Jazz,20,0,0,0,0,540
+Game,Opponent,True Probability (%),Bet Amount ($),Game Outcome,Profit ($),Cumulative Profit ($)
+1,Indiana Pacers,80,40,1,40,40
+2,Houston Rockets,30,0,0,0,40
+3,Portland Trail Blazers,40,0,1,0,40
+4,Houston Rockets,40,0,0,0,40
+5,Brooklyn Nets,10,0,0,0,40
+6,Miami Heat,70,30,1,30,70
+7,Miami Heat,80,40,0,-40,30
+8,Minnesota Timberwolves,30,0,1,0,30
+9,Cleveland Cavaliers,80,40,0,-40,-10
+10,Cleveland Cavaliers,60,20,1,20,10
+11,Toronto Raptors,40,0,0,0,10
+12,Oklahoma City Thunder,50,10,0,-10,0
+13,Boston Celtics,90,50,0,-50,-50
+14,Orlando Magic,90,50,1,50,0
+15,Indiana Pacers,40,0,1,0,0
+16,Atlanta Hawks,100,50,1,50,50
+17,Brooklyn Nets,60,20,1,20,70
+18,Milwaukee Bucks,0,0,0,0,70
+19,Memphis Grizzlies,10,0,0,0,70
+20,Detroit Pistons,10,0,1,0,70
+21,LA Clippers,0,0,0,0,70
+22,Los Angeles Lakers,70,30,0,-30,40
+23,Philadelphia 76ers,70,30,1,30,70
+24,LA Clippers,50,10,0,-10,60
+25,Philadelphia 76ers,30,0,1,0,60
+26,Philadelphia 76ers,80,40,1,40,100
+27,Phoenix Suns,60,20,1,20,120
+28,Philadelphia 76ers,60,20,1,20,140
+29,Miami Heat,30,0,1,0,140
+30,Portland Trail Blazers,10,0,0,0,140
+31,Detroit Pistons,30,0,0,0,140
+32,Philadelphia 76ers,40,0,0,0,140
+33,LA Clippers,100,50,1,50,190
+34,Golden State Warriors,20,0,0,0,190
+35,Detroit Pistons,100,50,1,50,240
+36,Golden State Warriors,30,0,0,0,240
+37,Brooklyn Nets,30,0,1,0,240
+38,Charlotte Hornets,70,30,0,-30,210
+39,Sacramento Kings,0,0,0,0,210
+40,Phoenix Suns,30,0,0,0,210
+41,Minnesota Timberwolves,70,30,1,30,240
+42,Toronto Raptors,90,50,1,50,290
+43,New Orleans Pelicans,80,40,1,40,330
+44,Washington Wizards,20,0,0,0,330
+45,Indiana Pacers,50,10,1,10,340
+46,Houston Rockets,60,20,0,-20,320
+47,Atlanta Hawks,100,50,1,50,370
+48,Golden State Warriors,90,50,1,50,420
+49,Orlando Magic,100,50,1,50,470
+50,Indiana Pacers,100,50,1,50,520
+51,Dallas Mavericks,50,10,0,-10,510
+52,LA Clippers,80,40,0,-40,470
+53,Boston Celtics,10,0,0,0,470
+54,Utah Jazz,90,50,1,50,520
+55,LA Clippers,70,30,1,30,550
+56,New Orleans Pelicans,50,10,0,-10,540
+57,Philadelphia 76ers,60,20,1,20,560
+58,Milwaukee Bucks,30,0,0,0,560
+59,Boston Celtics,100,50,1,50,610
+60,Cleveland Cavaliers,50,10,0,-10,600
+61,Denver Nuggets,50,10,0,-10,590
+62,Denver Nuggets,30,0,0,0,590
+63,Dallas Mavericks,20,0,0,0,590
+64,LA Clippers,70,30,0,-30,560
+65,Houston Rockets,0,0,0,0,560
+66,Philadelphia 76ers,0,0,0,0,560
+67,Portland Trail Blazers,80,40,1,40,600
+68,Houston Rockets,50,10,0,-10,590
+69,Sacramento Kings,30,0,0,0,590
+70,Miami Heat,50,10,0,-10,580
+71,Los Angeles Lakers,0,0,0,0,580
+72,Boston Celtics,40,0,1,0,580
+73,Detroit Pistons,10,0,1,0,580
+74,Boston Celtics,50,10,0,-10,570
+75,Toronto Raptors,40,0,1,0,570
+76,Toronto Raptors,100,50,1,50,620
+77,Golden State Warriors,10,0,0,0,620
+78,LA Clippers,10,0,0,0,620
+79,Washington Wizards,40,0,0,0,620
+80,Milwaukee Bucks,0,0,0,0,620
+81,Denver Nuggets,100,50,1,50,670
+82,Minnesota Timberwolves,0,0,0,0,670
