@@ -1,83 +1,83 @@
 Game,Opponent,True Probability (%),Estimated Probability (%),Bet Amount ($),Game Outcome,Profit ($),Cumulative Profit ($)
-1,Indiana Pacers,80,100,50,1,50,50
-2,Houston Rockets,30,0,0,0,0,50
-3,Portland Trail Blazers,40,80,40,1,40,90
-4,Houston Rockets,40,50,10,0,-10,80
-5,Brooklyn Nets,10,100,50,0,-50,30
-6,Miami Heat,70,100,50,1,50,80
-7,Miami Heat,80,0,0,0,0,80
-8,Minnesota Timberwolves,30,60,20,1,20,100
-9,Cleveland Cavaliers,80,50,10,0,-10,90
-10,Cleveland Cavaliers,60,90,50,1,50,140
-11,Toronto Raptors,40,40,0,0,0,140
-12,Oklahoma City Thunder,50,40,0,0,0,140
-13,Boston Celtics,90,60,20,0,-20,120
-14,Orlando Magic,90,100,50,1,50,170
-15,Indiana Pacers,40,10,0,1,0,170
-16,Atlanta Hawks,100,20,0,1,0,170
-17,Brooklyn Nets,60,50,10,1,10,180
-18,Milwaukee Bucks,0,10,0,0,0,180
-19,Memphis Grizzlies,10,0,0,0,0,180
-20,Detroit Pistons,10,40,0,1,0,180
-21,LA Clippers,0,0,0,0,0,180
-22,Los Angeles Lakers,70,40,0,0,0,180
-23,Philadelphia 76ers,70,100,50,1,50,230
-24,LA Clippers,50,70,30,0,-30,200
-25,Philadelphia 76ers,30,40,0,1,0,200
-26,Philadelphia 76ers,80,100,50,1,50,250
-27,Phoenix Suns,60,80,40,1,40,290
-28,Philadelphia 76ers,60,50,10,1,10,300
-29,Miami Heat,30,100,50,1,50,350
-30,Portland Trail Blazers,10,0,0,0,0,350
-31,Detroit Pistons,30,100,50,0,-50,300
-32,Philadelphia 76ers,40,10,0,0,0,300
-33,LA Clippers,100,100,50,1,50,350
-34,Golden State Warriors,20,70,30,0,-30,320
-35,Detroit Pistons,100,30,0,1,0,320
-36,Golden State Warriors,30,0,0,0,0,320
-37,Brooklyn Nets,30,0,0,1,0,320
-38,Charlotte Hornets,70,100,50,0,-50,270
-39,Sacramento Kings,0,60,20,0,-20,250
-40,Phoenix Suns,30,40,0,0,0,250
-41,Minnesota Timberwolves,70,70,30,1,30,280
-42,Toronto Raptors,90,70,30,1,30,310
-43,New Orleans Pelicans,80,80,40,1,40,350
-44,Washington Wizards,20,50,10,0,-10,340
-45,Indiana Pacers,50,70,30,1,30,370
-46,Houston Rockets,60,0,0,0,0,370
-47,Atlanta Hawks,100,100,50,1,50,420
-48,Golden State Warriors,90,90,50,1,50,470
-49,Orlando Magic,100,50,10,1,10,480
-50,Indiana Pacers,100,100,50,1,50,530
-51,Dallas Mavericks,50,60,20,0,-20,510
-52,LA Clippers,80,20,0,0,0,510
-53,Boston Celtics,10,0,0,0,0,510
-54,Utah Jazz,90,50,10,1,10,520
-55,LA Clippers,70,100,50,1,50,570
-56,New Orleans Pelicans,50,0,0,0,0,570
-57,Philadelphia 76ers,60,0,0,1,0,570
-58,Milwaukee Bucks,30,0,0,0,0,570
-59,Boston Celtics,100,90,50,1,50,620
-60,Cleveland Cavaliers,50,30,0,0,0,620
-61,Denver Nuggets,50,100,50,0,-50,570
-62,Denver Nuggets,30,100,50,0,-50,520
-63,Dallas Mavericks,20,0,0,0,0,520
-64,LA Clippers,70,90,50,0,-50,470
-65,Houston Rockets,0,0,0,0,0,470
-66,Philadelphia 76ers,0,0,0,0,0,470
-67,Portland Trail Blazers,80,80,40,1,40,510
-68,Houston Rockets,50,0,0,0,0,510
-69,Sacramento Kings,30,30,0,0,0,510
-70,Miami Heat,50,0,0,0,0,510
-71,Los Angeles Lakers,0,60,20,0,-20,490
-72,Boston Celtics,40,0,0,1,0,490
-73,Detroit Pistons,10,0,0,1,0,490
-74,Boston Celtics,50,50,10,0,-10,480
-75,Toronto Raptors,40,0,0,1,0,480
-76,Toronto Raptors,100,100,50,1,50,530
-77,Golden State Warriors,10,10,0,0,0,530
-78,LA Clippers,10,40,0,0,0,530
-79,Washington Wizards,40,10,0,0,0,530
-80,Milwaukee Bucks,0,30,0,0,0,530
-81,Denver Nuggets,100,100,50,1,50,580
-82,Minnesota Timberwolves,0,60,20,0,-20,560
+1,Atlanta Hawks,40,90,50,0,-50,-50
+2,Los Angeles Lakers,60,90,50,1,50,0
+3,Miami Heat,70,80,40,0,-40,-40
+4,Oklahoma City Thunder,90,100,50,0,-50,-90
+5,Dallas Mavericks,90,0,0,0,0,-90
+6,Memphis Grizzlies,10,0,0,0,0,-90
+7,Portland Trail Blazers,30,40,0,0,0,-90
+8,LA Clippers,0,0,0,0,0,-90
+9,Toronto Raptors,30,30,0,1,0,-90
+10,Sacramento Kings,80,100,50,1,50,-40
+11,Toronto Raptors,60,10,0,1,0,-40
+12,Minnesota Timberwolves,90,100,50,1,50,10
+13,Oklahoma City Thunder,30,0,0,0,0,10
+14,Phoenix Suns,90,100,50,1,50,60
+15,Brooklyn Nets,40,70,30,0,-30,30
+16,Oklahoma City Thunder,70,100,50,1,50,80
+17,Los Angeles Lakers,100,100,50,1,50,130
+18,LA Clippers,50,100,50,0,-50,80
+19,Portland Trail Blazers,20,90,50,1,50,130
+20,Memphis Grizzlies,60,40,0,1,0,130
+21,Philadelphia 76ers,30,0,0,1,0,130
+22,LA Clippers,80,50,10,0,-10,120
+23,New Orleans Pelicans,40,0,0,1,0,120
+24,Atlanta Hawks,90,90,50,1,50,170
+25,Philadelphia 76ers,50,90,50,0,-50,120
+26,Miami Heat,20,0,0,1,0,120
+27,Utah Jazz,70,30,0,0,0,120
+28,Milwaukee Bucks,80,70,30,1,30,150
+29,Detroit Pistons,0,0,0,0,0,150
+30,Charlotte Hornets,90,100,50,1,50,200
+31,Washington Wizards,80,100,50,1,50,250
+32,Denver Nuggets,20,60,20,0,-20,230
+33,Dallas Mavericks,30,20,0,0,0,230
+34,Houston Rockets,50,60,20,1,20,250
+35,Detroit Pistons,0,80,40,0,-40,210
+36,Cleveland Cavaliers,70,10,0,1,0,210
+37,Dallas Mavericks,0,0,0,0,0,210
+38,Milwaukee Bucks,10,0,0,0,0,210
+39,Atlanta Hawks,70,0,0,1,0,210
+40,Oklahoma City Thunder,70,20,0,1,0,210
+41,Los Angeles Lakers,90,30,0,1,0,210
+42,Cleveland Cavaliers,20,0,0,0,0,210
+43,Atlanta Hawks,90,100,50,1,50,260
+44,Atlanta Hawks,90,20,0,1,0,260
+45,San Antonio Spurs,80,60,20,1,20,280
+46,Atlanta Hawks,30,10,0,0,0,280
+47,Los Angeles Lakers,100,50,10,1,10,290
+48,Philadelphia 76ers,10,0,0,0,0,290
+49,Milwaukee Bucks,80,20,0,1,0,290
+50,Toronto Raptors,40,80,40,1,40,330
+51,Brooklyn Nets,10,0,0,0,0,330
+52,Detroit Pistons,80,70,30,1,30,360
+53,New York Knicks,90,100,50,1,50,410
+54,Phoenix Suns,80,0,0,0,0,410
+55,Denver Nuggets,70,80,40,1,40,450
+56,Miami Heat,0,20,0,0,0,450
+57,Atlanta Hawks,80,10,0,0,0,450
+58,Cleveland Cavaliers,70,100,50,1,50,500
+59,Phoenix Suns,60,0,0,0,0,500
+60,Washington Wizards,70,100,50,0,-50,450
+61,Indiana Pacers,100,90,50,1,50,500
+62,New York Knicks,30,70,30,0,-30,470
+63,Milwaukee Bucks,80,70,30,0,-30,440
+64,Memphis Grizzlies,50,90,50,0,-50,390
+65,Golden State Warriors,80,60,20,1,20,410
+66,Golden State Warriors,30,0,0,0,0,410
+67,Detroit Pistons,100,100,50,1,50,460
+68,Charlotte Hornets,80,20,0,1,0,460
+69,Golden State Warriors,60,70,30,1,30,490
+70,Portland Trail Blazers,40,0,0,0,0,490
+71,Miami Heat,50,50,10,1,10,500
+72,Utah Jazz,30,0,0,0,0,500
+73,Dallas Mavericks,90,70,30,1,30,530
+74,Philadelphia 76ers,80,90,50,0,-50,480
+75,Portland Trail Blazers,80,60,20,1,20,500
+76,Indiana Pacers,100,100,50,1,50,550
+77,Miami Heat,30,20,0,0,0,550
+78,Oklahoma City Thunder,20,60,20,0,-20,530
+79,Portland Trail Blazers,60,20,0,0,0,530
+80,Indiana Pacers,10,0,0,0,0,530
+81,Portland Trail Blazers,90,100,50,1,50,580
+82,Charlotte Hornets,50,10,0,1,0,580

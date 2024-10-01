@@ -1,83 +1,83 @@
 Game,Opponent,True Probability (%),Bet Amount ($),Game Outcome,Profit ($),Cumulative Profit ($)
-1,Indiana Pacers,80,3,1,40,3
-2,Houston Rockets,30,16,0,0,-13
-3,Portland Trail Blazers,40,48,1,0,35
-4,Houston Rockets,40,6,0,0,29
-5,Brooklyn Nets,10,48,0,0,-19
-6,Miami Heat,70,19,1,30,0
-7,Miami Heat,80,41,0,-40,-41
-8,Minnesota Timberwolves,30,48,1,0,7
-9,Cleveland Cavaliers,80,22,0,-40,-15
-10,Cleveland Cavaliers,60,44,1,20,29
-11,Toronto Raptors,40,26,0,0,3
-12,Oklahoma City Thunder,50,19,0,-10,-16
-13,Boston Celtics,90,28,0,-50,-44
-14,Orlando Magic,90,38,1,50,-6
-15,Indiana Pacers,40,38,1,0,32
-16,Atlanta Hawks,100,29,1,50,61
-17,Brooklyn Nets,60,41,1,20,102
-18,Milwaukee Bucks,0,34,0,0,68
-19,Memphis Grizzlies,10,42,0,0,26
-20,Detroit Pistons,10,50,1,0,76
-21,LA Clippers,0,3,0,0,73
-22,Los Angeles Lakers,70,1,0,-30,72
-23,Philadelphia 76ers,70,47,1,30,119
-24,LA Clippers,50,4,0,-10,115
-25,Philadelphia 76ers,30,47,1,0,162
-26,Philadelphia 76ers,80,23,1,40,185
-27,Phoenix Suns,60,37,1,20,222
-28,Philadelphia 76ers,60,47,1,20,269
-29,Miami Heat,30,27,1,0,296
-30,Portland Trail Blazers,10,16,0,0,280
-31,Detroit Pistons,30,17,0,0,263
-32,Philadelphia 76ers,40,4,0,0,259
-33,LA Clippers,100,2,1,50,261
-34,Golden State Warriors,20,26,0,0,235
-35,Detroit Pistons,100,38,1,50,273
-36,Golden State Warriors,30,6,0,0,267
-37,Brooklyn Nets,30,26,1,0,293
-38,Charlotte Hornets,70,42,0,-30,251
-39,Sacramento Kings,0,35,0,0,216
-40,Phoenix Suns,30,20,0,0,196
-41,Minnesota Timberwolves,70,16,1,30,212
-42,Toronto Raptors,90,39,1,50,251
-43,New Orleans Pelicans,80,11,1,40,262
-44,Washington Wizards,20,22,0,0,240
-45,Indiana Pacers,50,2,1,10,242
-46,Houston Rockets,60,2,0,-20,240
-47,Atlanta Hawks,100,7,1,50,247
-48,Golden State Warriors,90,10,1,50,257
-49,Orlando Magic,100,1,1,50,258
-50,Indiana Pacers,100,40,1,50,298
-51,Dallas Mavericks,50,41,0,-10,257
-52,LA Clippers,80,28,0,-40,229
-53,Boston Celtics,10,14,0,0,215
-54,Utah Jazz,90,47,1,50,262
-55,LA Clippers,70,20,1,30,282
-56,New Orleans Pelicans,50,4,0,-10,278
-57,Philadelphia 76ers,60,35,1,20,313
-58,Milwaukee Bucks,30,36,0,0,277
-59,Boston Celtics,100,35,1,50,312
-60,Cleveland Cavaliers,50,49,0,-10,263
-61,Denver Nuggets,50,46,0,-10,217
-62,Denver Nuggets,30,24,0,0,193
-63,Dallas Mavericks,20,21,0,0,172
-64,LA Clippers,70,37,0,-30,135
-65,Houston Rockets,0,35,0,0,100
-66,Philadelphia 76ers,0,34,0,0,66
-67,Portland Trail Blazers,80,50,1,40,116
-68,Houston Rockets,50,30,0,-10,86
-69,Sacramento Kings,30,35,0,0,51
-70,Miami Heat,50,0,0,-10,51
-71,Los Angeles Lakers,0,50,0,0,1
-72,Boston Celtics,40,22,1,0,23
-73,Detroit Pistons,10,28,1,0,51
-74,Boston Celtics,50,47,0,-10,4
-75,Toronto Raptors,40,40,1,0,44
-76,Toronto Raptors,100,21,1,50,65
-77,Golden State Warriors,10,21,0,0,44
-78,LA Clippers,10,38,0,0,6
-79,Washington Wizards,40,25,0,0,-19
-80,Milwaukee Bucks,0,29,0,0,-48
-81,Denver Nuggets,100,39,1,50,-9
-82,Minnesota Timberwolves,0,35,0,0,-44
+1,Atlanta Hawks,40,15,0,0,-15
+2,Los Angeles Lakers,60,30,1,20,15
+3,Miami Heat,70,21,0,-30,-6
+4,Oklahoma City Thunder,90,3,0,-50,-9
+5,Dallas Mavericks,90,22,0,-50,-31
+6,Memphis Grizzlies,10,20,0,0,-51
+7,Portland Trail Blazers,30,16,0,0,-67
+8,LA Clippers,0,18,0,0,-85
+9,Toronto Raptors,30,47,1,0,-38
+10,Sacramento Kings,80,6,1,40,-32
+11,Toronto Raptors,60,37,1,20,5
+12,Minnesota Timberwolves,90,45,1,50,50
+13,Oklahoma City Thunder,30,24,0,0,26
+14,Phoenix Suns,90,23,1,50,49
+15,Brooklyn Nets,40,39,0,0,10
+16,Oklahoma City Thunder,70,43,1,30,53
+17,Los Angeles Lakers,100,25,1,50,78
+18,LA Clippers,50,19,0,-10,59
+19,Portland Trail Blazers,20,42,1,0,101
+20,Memphis Grizzlies,60,30,1,20,131
+21,Philadelphia 76ers,30,49,1,0,180
+22,LA Clippers,80,0,0,-40,180
+23,New Orleans Pelicans,40,34,1,0,214
+24,Atlanta Hawks,90,21,1,50,235
+25,Philadelphia 76ers,50,19,0,-10,216
+26,Miami Heat,20,1,1,0,217
+27,Utah Jazz,70,46,0,-30,171
+28,Milwaukee Bucks,80,17,1,40,188
+29,Detroit Pistons,0,17,0,0,171
+30,Charlotte Hornets,90,32,1,50,203
+31,Washington Wizards,80,0,1,40,203
+32,Denver Nuggets,20,11,0,0,192
+33,Dallas Mavericks,30,45,0,0,147
+34,Houston Rockets,50,26,1,10,173
+35,Detroit Pistons,0,34,0,0,139
+36,Cleveland Cavaliers,70,9,1,30,148
+37,Dallas Mavericks,0,46,0,0,102
+38,Milwaukee Bucks,10,24,0,0,78
+39,Atlanta Hawks,70,13,1,30,91
+40,Oklahoma City Thunder,70,43,1,30,134
+41,Los Angeles Lakers,90,34,1,50,168
+42,Cleveland Cavaliers,20,2,0,0,166
+43,Atlanta Hawks,90,6,1,50,172
+44,Atlanta Hawks,90,32,1,50,204
+45,San Antonio Spurs,80,1,1,40,205
+46,Atlanta Hawks,30,40,0,0,165
+47,Los Angeles Lakers,100,36,1,50,201
+48,Philadelphia 76ers,10,18,0,0,183
+49,Milwaukee Bucks,80,18,1,40,201
+50,Toronto Raptors,40,12,1,0,213
+51,Brooklyn Nets,10,34,0,0,179
+52,Detroit Pistons,80,42,1,40,221
+53,New York Knicks,90,10,1,50,231
+54,Phoenix Suns,80,36,0,-40,195
+55,Denver Nuggets,70,24,1,30,219
+56,Miami Heat,0,5,0,0,214
+57,Atlanta Hawks,80,49,0,-40,165
+58,Cleveland Cavaliers,70,21,1,30,186
+59,Phoenix Suns,60,21,0,-20,165
+60,Washington Wizards,70,0,0,-30,165
+61,Indiana Pacers,100,19,1,50,184
+62,New York Knicks,30,50,0,0,134
+63,Milwaukee Bucks,80,44,0,-40,90
+64,Memphis Grizzlies,50,18,0,-10,72
+65,Golden State Warriors,80,0,1,40,72
+66,Golden State Warriors,30,15,0,0,57
+67,Detroit Pistons,100,3,1,50,60
+68,Charlotte Hornets,80,29,1,40,89
+69,Golden State Warriors,60,42,1,20,131
+70,Portland Trail Blazers,40,32,0,0,99
+71,Miami Heat,50,13,1,10,112
+72,Utah Jazz,30,19,0,0,93
+73,Dallas Mavericks,90,40,1,50,133
+74,Philadelphia 76ers,80,36,0,-40,97
+75,Portland Trail Blazers,80,6,1,40,103
+76,Indiana Pacers,100,30,1,50,133
+77,Miami Heat,30,24,0,0,109
+78,Oklahoma City Thunder,20,45,0,0,64
+79,Portland Trail Blazers,60,4,0,-20,60
+80,Indiana Pacers,10,17,0,0,43
+81,Portland Trail Blazers,90,12,1,50,55
+82,Charlotte Hornets,50,11,1,10,66

@@ -29,7 +29,6 @@ def plot_probs_results_comparison(final_profits_true, final_profits_estimated, s
     plt.xlabel('Season End Cumulative Profit ($)')
     plt.ylabel('Frequency')
     plt.legend()
-    plt.show()
 
     # Risk analysis - comparison
     worst_case_true = np.min(final_profits_true)
@@ -44,6 +43,7 @@ def plot_probs_results_comparison(final_profits_true, final_profits_estimated, s
     if savefig:
         plt.savefig('./data/histogram_comparison_plot_probs.eps', format='eps')
         plt.savefig('./data/histogram_comparison_plot_probs.png', format='png')
+    plt.show()
         
 def plot_dss_results_comparison(final_profits_true, final_profits_estimated, savefig = True):
     """
@@ -71,7 +71,6 @@ def plot_dss_results_comparison(final_profits_true, final_profits_estimated, sav
     plt.xlabel('Season End Cumulative Profit ($)')
     plt.ylabel('Frequency')
     plt.legend()
-    plt.show()
 
     # Risk analysis - comparison
     worst_case_true = np.min(final_profits_true)
@@ -86,6 +85,8 @@ def plot_dss_results_comparison(final_profits_true, final_profits_estimated, sav
     if savefig:
         plt.savefig('./data/histogram_comparison_plot_dss.eps', format='eps')
         plt.savefig('./data/histogram_comparison_plot_dss.png', format='png')
+    plt.show()
+
 
 def plot_cumulative_profit_comparison(exp1, exp2, exp3, season = 50, savefig = True):
     # Create a figure and axis
@@ -104,8 +105,11 @@ def plot_cumulative_profit_comparison(exp1, exp2, exp3, season = 50, savefig = T
     plt.legend()
 
     # Save the plot as EPS and PNG
-    plt.savefig('./data/cumulative_profit_comparison.eps', format='eps')
-    plt.savefig('./data/cumulative_profit_comparison.png', format='png')
+    if savefig:
+        plt.savefig('./data/cumulative_profit_comparison.eps', format='eps')
+        plt.savefig('./data/cumulative_profit_comparison.png', format='png')
+    plt.show()
+
 
 def plot_all_results_comparison(final_profits_true, final_profits_estimated, final_profits_random, savefig=True):
     """
@@ -137,7 +141,6 @@ def plot_all_results_comparison(final_profits_true, final_profits_estimated, fin
     plt.xlabel('Season End Cumulative Profit ($)')
     plt.ylabel('Frequency')
     plt.legend()
-    plt.show()
 
     # Risk analysis - comparison
     worst_case_true = np.min(final_profits_true)
@@ -157,6 +160,8 @@ def plot_all_results_comparison(final_profits_true, final_profits_estimated, fin
     if savefig:
         plt.savefig('./data/histogram_comparison_plot_all.eps', format='eps')
         plt.savefig('./data/histogram_comparison_plot_all.png', format='png')
+    plt.show()
+
     
 if __name__ == '__main__': 
     # Load the data from CSV file
